@@ -3,9 +3,13 @@ $main-dark: #2d2135;
 $secondary: #ffc502;
 $secondary-dark: #5b3278;
 $grad1: linear-gradient(211.39deg, #793fa3 2.78%, #b520a2 99.43%);
-$grad2: linear-gradient(215.98deg, #793fa3 2.83%, #b520a2 57.44%, #f7cc1d 94.1%);
-// utils
-//   transition: color 250ms linear;
+$grad2: linear-gradient(
+  215.98deg,
+  #793fa3 2.83%,
+  #b520a2 57.44%,
+  #f7cc1d 94.1%
+);
+
 body {
   color: $main-dark;
   font-weight: 300;

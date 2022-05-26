@@ -283,6 +283,7 @@ summary {
   max-width: 1600px;
   background-image: url(../img/hero.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-heading {
@@ -811,7 +812,7 @@ summary {
 }
 
 .checkbox:checked + .checkbox2-icon {
-  background-image: url(../../img/chekbox.svg);
+  background-image: url(../img/chekbox.svg);
   background-size: contain;
   background-origin: border-box;
   border: none;
