@@ -1,0 +1,29 @@
+.Hero-section {
+  display: flex;
+  align-items: start;
+  height: 662px;
+  margin: 0 auto;
+  padding: 0 84px;
+  max-width: 1600px;
+  background-image: url(../../img/hero.jpg);
+  background-repeat: no-repeat;
+}
+
+.hero-heading {
+  padding-top: 147px;
+  margin: 0;
+}
+.hero-text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.27;
+}
+.hero-button {
+  margin-right: 32px;
+  @extend .button;
+  transition: background-color 250ms linear;
+  &:hover,
+  &:focus {
+    background-color: $secondary-dark;
+  }
+}

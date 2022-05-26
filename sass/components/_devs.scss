@@ -1,0 +1,51 @@
+.for-devs {
+  @extend .container;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.for-devs-text {
+  width: 1136px;
+  margin: 0;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.13;
+  text-align: center;
+}
+.for-devs-features {
+  width: 100%;
+  height: 432px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: $grad2;
+  border-radius: 20px;
+}
+.for-devs-list {
+  padding-right: 168px;
+  color: white;
+}
+.for-devs-list-item {
+  position: relative;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.13;
+  & + & {
+    padding-top: 39px;
+  }
+  &::before {
+    position: absolute;
+    left: 0;
+    transform: translateX(-38px);
+    content: '';
+    display: block;
+    width: 22px;
+    height: 24px;
+    background-image: url(../../img/colizeum-icon.svg);
+    background-size: contain;
+  }
+}
